@@ -27,9 +27,9 @@ with **push-based model**
 
 Examples directory:
 
-  * [Simple]  (https://github.com/Rustixir/last_stage/examples/simple.rs)  
+  * [Simple]  (https://github.com/Rustixir/last_stage/blob/master/examples/simple.rs)  
                               
-  * [Multi]   (https://github.com/Rustixir/last_stage/examples/multi.rs) 
+  * [Multi]   (https://github.com/Rustixir/last_stage/blob/master/examples/multi.rs) 
                                        
 
 
