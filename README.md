@@ -27,16 +27,13 @@ with **push-based model**
 
 Examples directory:
 
-  * [Simple]  (examples/simple.rs)   `A -> B -> C` stages and having events flowing through it
-  
-                                           B   \ 
-                                         /      \
-  * [Multi]   (examples/multi.rs)    A -/  B -----> C
-                                        \       /
-                                         \ B   /
+  * [Simple]  (https://github.com/Rustixir/last_stage/examples/simple.rs)  
+                              
+  * [Multi]   (https://github.com/Rustixir/last_stage/examples/multi.rs) 
+                                       
 
 
-# QuickStart
+# Quick example
 
 ```rust
 
