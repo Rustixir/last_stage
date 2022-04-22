@@ -5,7 +5,7 @@ LastStage is a specification for exchanging events between producers and consume
 with **push-based model**
 
 
-## This project currently provides the following functionality:
+## This project currently provides :
 
   * **Producer** produce events and dispatch to subscribers by Dispatcher 
                    (no input - one/many output)
