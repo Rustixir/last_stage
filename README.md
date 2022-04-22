@@ -30,8 +30,12 @@ Examples directory:
   * [Simple]  (https://github.com/Rustixir/last_stage/blob/master/examples/simple.rs)  
                               
   * [Multi]   (https://github.com/Rustixir/last_stage/blob/master/examples/multi.rs) 
-                                       
 
+
+# Installation
+```
+ laststage = "0.0.1"
+```
 
 # Quick example
 
