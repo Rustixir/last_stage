@@ -30,12 +30,16 @@ Examples directory:
   * [Simple]  (https://github.com/Rustixir/last_stage/blob/master/examples/simple.rs)  
                               
   * [Multi]   (https://github.com/Rustixir/last_stage/blob/master/examples/multi.rs) 
+                                       
 
 
 # Installation
 ```
- laststage = "0.0.1"
+laststage = "1.0.0"
+
 ```
+
+
 
 # Quick example
 
@@ -87,9 +91,8 @@ struct Prod;
 
 #[async_trait]
 impl Producer<ProdEvent> for Prod {
-    async fn init(&mut self) {
-
-    }
+    async fn init(&mut self) {}
+    async fn terminate(&mut self) {}
 
     async fn handle_demand(&mut self, max_demand: usize) -> Vec<ProdEvent> {
         (0..max_demand as i32)
@@ -105,9 +108,6 @@ impl Producer<ProdEvent> for Prod {
             .collect()
     }
 
-    async fn terminate(&mut self) {
-
-    }
 } 
 
 
@@ -118,9 +118,8 @@ struct FilterByAge;
 
 #[async_trait]
 impl ProducerConsumer<ProdEvent, ProdEvent> for FilterByAge {
-    async fn init(&mut self) {
-        
-    }
+    async fn init(&mut self) {}
+    async fn terminate(&mut self) {}
 
     async fn handle_events(&mut self, events: Vec<ProdEvent>) -> Vec<ProdEvent> {
         events
@@ -129,9 +128,6 @@ impl ProducerConsumer<ProdEvent, ProdEvent> for FilterByAge {
             .collect()
     }
 
-    async fn terminate(&mut self) {
-
-    }
 
 
 } 
@@ -142,9 +138,8 @@ struct Log;
 
 #[async_trait]
 impl Consumer<ProdEvent> for Log {
-    async fn init(&mut self) {
-
-    }
+    async fn init(&mut self) {}
+    async fn terminate(&mut self) {}
 
     async fn handle_events(&mut self, events: Vec<ProdEvent>) -> State<ProdEvent> {
         events
@@ -157,9 +152,6 @@ impl Consumer<ProdEvent> for Log {
     }  
 
 
-    async fn terminate(&mut self) {
-        
-    }
 }
 
 
