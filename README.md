@@ -16,7 +16,7 @@ with **push-based model**
 
 
   * **Consumer** it get events from upstream and consume it 
-                   (one/many input - no putput)
+                   (one/many input - no output)
 
 
   * **Dispatcher** first get one-many subscriber then start to dispatch events by two mode (Broadcast / RoundRobin)
