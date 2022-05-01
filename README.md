@@ -4,8 +4,8 @@
 <div align="center">
 
   <!-- Downloads -->
-  <a href="https://crates.io/crates/last_stage">
-    <img src="https://img.shields.io/crates/d/last_stage.svg?style=flat-square"
+  <a href="https://crates.io/crates/laststage">
+    <img src="https://img.shields.io/crates/d/laststage.svg?style=flat-square"
       alt="Download" />
   </a>
 </div>
