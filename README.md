@@ -1,6 +1,15 @@
 
 # LastStage
 
+<div align="center">
+
+  <!-- Downloads -->
+  <a href="https://crates.io/crates/last_stage">
+    <img src="https://img.shields.io/crates/d/last_stage.svg?style=flat-square"
+      alt="Download" />
+  </a>
+</div>
+
 LastStage is a specification for exchanging events between producers and consumers.
 with **push-based model**
 
