@@ -10,8 +10,8 @@
   </a>
 </div>
 
-LastStage is a specification for exchanging events between producers and consumers.
-with **push-based model**
+LastStage is a specification for exchanging events (Batch) between producers and consumers.
+with **push-based model** 
 
 
 ## This project currently provides :
